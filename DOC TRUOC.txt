@@ -1,0 +1,33 @@
+Seeding
+=======
+
+Chay Seeding.exe. Cua so ung dung mo ra ngay - do la dashboard.
+Dong cua so la tat chuong trinh.
+
+1. Bam BANH RANG goc tren ben phai, dan khoa API cua DeepSeek va NVIDIA.
+2. Bam nut + tron goc duoi ben phai, dat ten, bam Tao.
+   Mot Chrome trang mo ra - dang nhap Threads mot lan trong do roi thoi.
+3. Tab 'Cai dat ho so': tich danh muc dang ban, dat nguong diem.
+4. Bam Chay.
+
+VONG CHAY
+  Gui het hang doi da soan  ->  hang doi tut duoi 10 bai thi di cuon kiem bai
+  ->  cham  ->  soan  ->  du 100 bai thi F5 tai lai trang  ->  lap.
+  Hang doi day 50 bai thi ngung cuon, cho gui bot. Ba con so do chinh duoc.
+
+THU MUC
+  data/      cau hinh, kho du lieu, catalog Excel, seeding.log   <- MANG THEO
+  profiles/  ho so Chrome                                        <- xem duoi
+  cache/     cua so ung dung. Xoa luc nao cung duoc.
+  _internal/ file chuong trinh. Khong sua.
+
+MANG SANG MAY KHAC
+  Chep ca thu muc nay, tru cache/ (tu tao lai).
+
+  Ho so thi KHONG mang duoc. Cookie trong do ma hoa theo tai khoan Windows cua
+  may cu, sang may khac Chrome khong giai duoc - mo ra van bat dang nhap.
+
+  Xoa ho so cu di, bam + tao lai va dang nhap. Khoa API va cai dat rieng tung
+  ho so nam trong data/settings.json nen van con nguyen.
+
+  May moi phai co Chrome. Cua so ung dung dung Edge (Win10/11 co san).
